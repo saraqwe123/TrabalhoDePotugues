@@ -9,11 +9,11 @@
 :root {
     --branca: #ffffff;
     --preta: #000000;
-    --bege: #f5a849;
+    --laranja: #f4992a;
     --amarela: #D99311;
     --azulEscuro: #193773;
-    --azul: #233D8C;
-    --vinho: #591829;
+    --azul: #233d8c4e;
+    --vinho: #701c32;
 }
 
 
@@ -21,16 +21,31 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
+    background-color: var(--azul);
 }
 
 .header {
-    background-color: var(--bege);
+    background-color: var(--laranja);
     width: 100%;
     height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10
     
-
-
 }
+
+.imagem{
+    width: 100%;
+    height: 100vh;
+    margin-top: -10%;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
 
 .menu {
     height: 10vh;
@@ -41,8 +56,8 @@ body {
 }
 
 .titulo {
-    padding: 20px;
-    size: 36px;
+    padding: 10px;
+    font-size: 28px;
     
 }
 
@@ -56,10 +71,36 @@ body {
 
 
 a {
+    font-size: 24px;
     color: var(--vinho);
     text-decoration: none;
 }
 
 a:hover {
     color: var(--branca);
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+}
+
+#resumo {
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#autor {
+    margin: 1.5%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagemMachado {
+    width: 50%;
+    height: 50%;
 }
