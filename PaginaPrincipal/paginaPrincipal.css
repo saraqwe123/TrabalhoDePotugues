@@ -46,7 +46,6 @@ img {
     height: 100vh;
 }
 
-
 .menu {
     height: 10vh;
     display: flex;
@@ -104,3 +103,27 @@ a:hover {
     width: 50%;
     height: 50%;
 }
+
+.meio-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#personagem1 {
+    margin: 1.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+#personagem2 {
+    margin: 1.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+#personagem3 {
+    margin: 1.5%;
+    display: flex;
+    flex-direction: row;
+}
+
