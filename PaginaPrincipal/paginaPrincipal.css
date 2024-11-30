@@ -41,7 +41,7 @@ body {
     margin-top: -10%;
 }
 
-img {
+#capa {
     width: 100%;
     height: 100vh;
 }
@@ -101,7 +101,7 @@ a:hover {
 
 #imagemMachado {
     width: 50%;
-    height: 50%;
+    height: 60%;
 }
 
 .meio-2 {
@@ -127,3 +127,46 @@ a:hover {
     flex-direction: row;
 }
 
+.integrantes {
+    margin: 1.5%;
+    margin-top: 1.5%;
+}
+
+.final {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagensPartipantes {
+    display: flex;
+    flex-direction: row;
+}
+
+#alunos {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#participantes {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px; /* Certifique-se de que largura e altura sejam iguais */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    overflow: hidden; 
+}
+
+#participantes:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+#professora {
+    width: 50%;
+    display: flex;
+    justify-content: center;    
+}
