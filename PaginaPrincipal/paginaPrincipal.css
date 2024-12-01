@@ -99,6 +99,15 @@ a:hover {
     align-items: center;
 }
 
+.machado{
+    text-align: center;
+    font-size: large;
+}
+
+.texto-machado{
+    text-align: justify;
+}
+
 #imagemMachado {
     width: 50%;
     height: 60%;
