@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paginaPrincipal.css">
+    <script src="./paginaPrincipal.js" defer></script>
     <title>Memórias Póstumas</title>
 </head>
 <body>
@@ -11,9 +12,10 @@
         <ol class="menu">
             <li class="titulo"><strong>Memórias Póstumas</strong></li>
             <li class="menuLista"><a href="#resumo">Resumo</a></li>
-            <li class="menuLista"><a href="#integrantes">Integrantes</a></li>
             <li class="menuLista"><a href="#autor">Autor</a></li>
             <li class="menuLista"><a href="#personagens">Personagens</a></li>
+            <li class="menuLista"><a href="#cartas">Cartas</a></li>
+            <li class="menuLista"><a href="#integrantes">Integrantes</a></li>
             <li class="menuLista"><a href="#professora">Professora</a></li>
         </ol>
     </header>
@@ -46,14 +48,49 @@
         <span class="personagem2">
             FOTO PERSONAGEM
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate sapiente sint, impedit optio illo aliquid. Ipsum cupiditate similique enim ad blanditiis deleniti temporibus deserunt, fugiat odit accusamus quis, impedit voluptatem?</p>
-
+            
         </span>
         <span class="personagem3">
             FOTO PERSONAGEM
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate sapiente sint, impedit optio illo aliquid. Ipsum cupiditate similique enim ad blanditiis deleniti temporibus deserunt, fugiat odit accusamus quis, impedit voluptatem?</p>
         </span>
     </div>
-    <br>
+
+    <div id="cartas">
+        <h1>CARTAS</h1>
+        <div class="menu-lateral">
+            <button onclick="mostrarCarta('bras')">Brás Cubas</button>
+            <button onclick="mostrarCarta('virgilia')">Virgilia</button>
+            <button onclick="mostrarCarta('julia')">Julia</button>
+        </div>
+        <div class="conteudo-carta">
+            <div id="carta-bras" class="carta">
+                <h2>Carta de Brás Cubas</h2>
+                <p>Escrevo-vos do além, com a pena leve que a morte me concedeu, para vos contar que, mesmo sem carne, ossos ou batimentos, ainda sinto a necessidade de dialogar com os vivos. Afinal, embora tenha deixado o mundo dos homens, a vaidade não se desvaneceu comigo.
+
+A morte, meus caros, é um espelho onde vi refletidas todas as misérias e glórias que antes me escapavam. Não falo daquelas glórias grandiosas que enchem livros de história, pois essas nunca me pertenceram. Falo das pequenas glórias pessoais, das vaidades cotidianas, como a minha invenção do emplasto — ah, o emplasto! Uma cura para a humanidade, dizem... Uma cura para o meu ego, digo eu.
+
+E agora, nesta condição póstuma, percebo o quanto somos todos criaturas fugazes, escravos de desejos, orgulhos e convenções. Como fui, como sois, como serão os que virão depois de vós. Um desfile de vaidades em busca de aplausos que ecoam por pouco tempo antes de se perderem no silêncio do esquecimento.
+
+Aqui, onde me encontro, não há políticos corruptos nem amantes infiéis — ou talvez haja, mas sem suas máscaras terrenas, perdem a graça. E sem essas tramas, o que sobra? Nada, ou quase nada. Talvez a memória de quem fomos. Ou o desejo de escrever cartas como esta, para recordar-me de que já fui Brás Cubas, o defunto autor.
+
+Despeço-me com o mesmo tom irônico e despretensioso com que vivi e morri, lembrando-vos de que, embora sejais vivos agora, sois também sombras em formação.
+
+Vosso, eternamente,
+Brás Cubas</p>
+            </div>
+            <div id="carta-virgilia" class="carta" style="display: none;">
+                <h2>Carta de Virgilia</h2>
+                <p>Olá, eu sou Maria. Quisque finibus velit eget felis fermentum, at facilisis erat aliquam.</p>
+            </div>
+            <div id="carta-julia" class="carta" style="display: none;">
+                <h2>Carta de Julia</h2>
+                <p>Olá, eu sou Julia. Donec id sapien vel magna volutpat sollicitudin.</p>
+            </div>
+        </div>
+    </div>
+    
+
     <div id="integrantes">
         <span class="final" >
             <h2>Integrantes</h2>
@@ -68,7 +105,7 @@
                     <img src="./imagensParticipante/Pedro.jpeg" alt="" id="participantes">
                 </a>
                 <a href="#">
-                    <img src="./imagensParticipante/capivaraTeste.jpeg" alt="" id="participantes">
+                    <img src="./imagensParticipante/Luana.jpg" alt="" id="participantes">
                 </a>
                 <a href="#">
                     <img src="./imagensParticipante/capivaraTeste.jpeg" alt="" id="participantes">
