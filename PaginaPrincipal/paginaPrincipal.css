@@ -163,10 +163,10 @@ a:hover {
 }
 
 #participantes {
-    width: 150px; /* Ajuste o tamanho conforme necessário */
-    height: 150px; /* Certifique-se de que largura e altura sejam iguais */
+    width: 130px; 
+    height: 130px; 
     border-radius: 50%;
-    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    object-fit: cover;
     overflow: hidden; 
 }
 
