@@ -96,7 +96,7 @@ a:hover {
     color: white;
     padding: 1.5%;
     border-radius: 10%;
-    
+    width: 99vw;
 }
 
 #autor {
@@ -139,20 +139,29 @@ a:hover {
 
 #personagem1 {
     margin: 1.5%;
+    padding: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
+    background: linear-gradient(135deg, var(--laranja), var(--vinho));
 }
 
 #personagem2 {
     margin: 1.5%;
+    padding: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
+    background: linear-gradient(135deg, var(--laranja), var(--vinho));
 }
 
 #personagem3 {
     margin: 1.5%;
+    padding: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
+    background: linear-gradient(135deg, var(--laranja), var(--vinho));
 }
 
 
@@ -259,7 +268,7 @@ span {
 
 .menu-lateral button:hover {
     transform: scale(1.05);
-    color: var(--vinho);
+    color: var(--branca);
 }
 .carta h2 {
     color: var(--vinho);
