@@ -144,6 +144,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     background: linear-gradient(135deg, var(--laranja), var(--vinho));
+    color: var(--branca);
 }
 
 #personagem2 {
@@ -153,6 +154,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     background: linear-gradient(135deg, var(--laranja), var(--vinho));
+    color: var(--branca);
 }
 
 #personagem3 {
@@ -162,6 +164,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     background: linear-gradient(135deg, var(--laranja), var(--vinho));
+    color: var(--branca);
 }
 
 
