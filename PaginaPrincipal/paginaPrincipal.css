@@ -10,6 +10,7 @@
     --branca: #ffffff;
     --preta: #000000;
     --laranja: #f4992a;
+    --laranja-escuro: #f57c00;
     --amarela: #D99311;
     --azulEscuro: #193773;
     --azul: #233d8c4e;
@@ -22,11 +23,12 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100%;
     width: 100%;
+    margin: 0;
     background-color: var(--azul);
 }
 
 .header {
-    background-color: var(--laranja);
+    background-color: var(--laranja-escuro);
     width: 100%;
     height: 10vh;
     position: fixed;
@@ -85,19 +87,28 @@ a:hover {
     flex-direction: row;
 }
 
-#resumo {
+.resumo {
     margin: 1.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(135deg, var(--vinho), var(--laranja));
+    color: white;
+    padding: 1.5%;
+    border-radius: 10%;
+    
 }
 
 #autor {
     margin: 1.5%;
+    padding: 1.5%;
     width: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    background: linear-gradient(135deg, var(--laranja), var(--vinho));
+    border-radius: 10%;
 }
 
 .machado{
@@ -112,6 +123,7 @@ a:hover {
 #imagemMachado {
     width: 50%;
     height: 60%;
+    margin-top: 10%;
 }
 
 .meio-2 {
@@ -181,6 +193,15 @@ a:hover {
     justify-content: center;    
 }
 
+.conteudo-carta {
+    margin: 1.5%;
+}
+
+.cartas {
+    margin-left: 1.5%;
+}
+
+
 .menu-lateral {
     display: flex;
     flex-direction: column;
@@ -188,6 +209,8 @@ a:hover {
     padding: 20px;
     background: linear-gradient(135deg, var(--laranja), var(--vinho));
     border-radius: 16px;
+    width: 94%;
+    margin: 1.5%;
 }
 
 .menu-lateral button {
